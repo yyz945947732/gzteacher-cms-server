@@ -1,0 +1,52 @@
+{
+  "name": "@gzteacher/cms-server",
+  "version": "1.0.0",
+  "description": "本地运行 cms 文件的服务",
+  "homepage": "https://github.com/yyz945947732/@gzteacher/cms-server",
+  "scripts": {
+    "start": "cd example && node ../bin/index.js",
+    "lint": "biome check --apply-unsafe ./lib && biome format --write ./lib",
+    "knip": "knip"
+  },
+  "bin": {
+    "cms-run": "./bin/index.js"
+  },
+  "type": "module",
+  "author": "yyz945947732 <945947732@qq.com>",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/yyz945947732/@gzteacher/cms-server/issues",
+    "email": "945947732@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyz945947732/@gzteacher/cms-server.git"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "fast-glob": "^3.3.3",
+    "fs-extra": "^11.1.1",
+    "open": "^10.1.1",
+    "serve-handler": "^6.1.6",
+    "update-notifier": "^6.0.2",
+    "ws": "^8.18.1",
+    "yargs-parser": "^21.1.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.1.2",
+    "@types/fs-extra": "^11.0.1",
+    "knip": "^5.50.5"
+  },
+  "keywords": [
+    "@gzteacher",
+    "cms-server",
+    "cms"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
