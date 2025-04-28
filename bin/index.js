@@ -12,12 +12,14 @@ const pkg = JSON.parse(
 
 const aliases = {
   h: "help",
-  v: "version"
+  v: "version",
+  p: "port",
 };
 
 const parseCliArguments = args => {
   const options = parseArgs(args, {
-    alias: aliases
+    alias: aliases,
+    number: ['port'],
   });
   return options;
 };
