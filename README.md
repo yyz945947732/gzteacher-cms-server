@@ -29,7 +29,7 @@
 
 ## Quick start
 
-本地安装
+### 本地安装
 
 ```sh
 npm install -D @gzteacher/cms-server
@@ -43,13 +43,25 @@ npm install -D @gzteacher/cms-server
 }
 ```
 
-现在，你可以本地运行服务调试文件了。
+执行命令运行服务：
 
 ```bash
 npm run start
 ```
 
 <img src="./assets/example.png" />
+
+### 全局安装
+
+```sh
+npm install -g @gzteacher/cms-server
+```
+
+通过 `npx` 直接运行：
+
+```sh
+npx cms-run
+```
 
 ## LICENSE
 
