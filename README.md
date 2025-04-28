@@ -23,9 +23,9 @@
 🚀 本地运行 cms 文件的服务
 
 - 支持热更新
+- 运行时忽略 cms 语法
+- 运行时支持 include 嵌套
 - 自动打开浏览器
-- 自动替换 cms 语法
-- 支持 include 嵌套
 
 ## Quick start
 
