@@ -1,6 +1,6 @@
 {
   "name": "@gzteacher/cms-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "本地运行 cms 文件的服务",
   "homepage": "https://github.com/yyz945947732/@gzteacher/cms-server",
   "scripts": {
