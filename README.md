@@ -64,6 +64,14 @@ npm install -g @gzteacher/cms-server
 npx cms-run
 ```
 
+## Options
+
+```sh
+-h --help              Print this help
+-v --version           Print @gzteacher/cms-server version number
+-p --port <port>       Set access port (default 3009)
+```
+
 ## LICENSE
 
 [MIT](https://github.com/yyz945947732/@gzteacher/cms-server/blob/master/LICENSE)
